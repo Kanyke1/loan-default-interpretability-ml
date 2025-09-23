@@ -1,0 +1,17 @@
+{
+  "random_seed": 1337,
+  "target": "default",
+  "test_size": 0.2,
+  "val_size": 0.2,
+  "dataset": {
+    "path": "data/processed/train.csv",
+    "id_column": "id"
+  },
+  "training": {
+    "max_epochs": 50,
+    "batch_size": 256,
+    "lr": 0.001,
+    "early_stopping_patience": 5
+  },
+  "artifacts_dir": "artifacts/torch"
+}

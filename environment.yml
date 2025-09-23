@@ -1,0 +1,24 @@
+name: loan-default-ml
+channels: [conda-forge, defaults]
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - scikit-learn
+      - xgboost
+      - lightgbm
+      - shap
+      - matplotlib
+      - seaborn
+      - jupyter
+      - ipykernel
+      - pytorch>=2.2
+      - pytorch-lightning>=2.2
+      - torchmetrics
+      - fairlearn
+      - joblib
+      - python-dotenv
+      - rich
+      - pygam

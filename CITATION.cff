@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: "Loan Default Prediction — Interpretable & Robust"
+authors:
+  - family-names: "Korosheva"
+    given-names: "Kanykei"
+date-released: 2025-09-22
+version: "0.1.0"

@@ -1,0 +1,33 @@
+{
+  "random_seed": 1337,
+  "target": "default",
+  "test_size": 0.2,
+  "val_size": 0.2,
+  "cv_folds": 5,
+  "dataset": {
+    "path": "data/processed/train.csv",
+    "id_column": "id"
+  },
+  "models": {
+    "logreg": {
+      "C": 1.0,
+      "max_iter": 1000
+    },
+    "tree": {
+      "max_depth": 5,
+      "min_samples_leaf": 50
+    },
+    "xgb": {
+      "n_estimators": 300,
+      "max_depth": 4,
+      "learning_rate": 0.05,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9
+    }
+  },
+  "features": {
+    "numeric_impute": "median",
+    "scale_numeric": true
+  },
+  "artifacts_dir": "artifacts"
+}
