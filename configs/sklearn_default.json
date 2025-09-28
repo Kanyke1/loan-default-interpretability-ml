@@ -31,10 +31,4 @@
   },
   "artifacts_dir": "artifacts"
 }
-# --- SAVE ARTIFACTS FOR APP ---
-import os, json, joblib
 
-os.makedirs("artifacts", exist_ok=True)
-joblib.dump(best_model, "artifacts/model.joblib")              # your trained sklearn model
-with open("artifacts/feature_columns.json", "w") as f:
-    json.dump(list(X_train.columns), f)                        # exact feature order used in training
