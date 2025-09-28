@@ -1,4 +1,4 @@
-# Loan Default Prediction — Interpretable & Robust (Cornell-Tech–style)
+# Loan Default Prediction — Interpretable & Robust
 
 **Goal:** Supervised classification to predict loan default using sociodemographic & financial features, with a hard focus on **interpretability**, **robustness**, and **fairness**.  
 This mirrors the *Credit Card Approvals* project criteria and showcases skills directly relevant to internships requiring **Python, PyTorch, model evaluation tooling, and rigorous experimentation**.
